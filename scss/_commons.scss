@@ -1,0 +1,41 @@
+//navcosas
+$main-color:black;
+$secondary-color:white;
+$hover-color:rgba(255, 194, 84, 1);
+
+
+//tamaños
+
+$w-100:100%;
+$w-75:75%;
+$w-50:50%;
+$w-25:25%;
+$w-5:5%;
+
+
+//fondo-imagenes
+
+$img-bg:url(../fotos/background.jpg);
+
+
+//mixins
+
+@mixin flex($justify,$aling){
+	display: flex;
+	justify-content: $justify;
+	align-items: $aling;
+}
+
+
+//maps colores
+
+$colores: (
+	'blc': #000000,
+	'wht': #ffffffff,
+	'ylw': rgba(255, 194, 84, 1),
+	'bl': rgba(52, 76, 228, 0.77),
+	'grn': rgba(31, 229, 165, 0.77),
+	'org': rgba(233, 151, 59, 0.91),
+	'rd': rgba(191, 31, 26, 0.97),
+	'pnk':rgba(216, 38, 173, 1),
+	);
