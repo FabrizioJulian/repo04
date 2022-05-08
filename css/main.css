@@ -7810,6 +7810,29 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+@media screen and (max-width: 970px) {
+  .bdy-bg a img {
+    width: 10%; }
+  .btn-gen ul {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid white; }
+    .btn-gen ul li {
+      border: 1.5px solid #ffc254;
+      text-align: center; }
+  .main-index {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .main-index section article div {
+      width: 125%; }
+      .main-index section article div input {
+        width: 35%; }
+      .main-index section article div textarea {
+        width: 75%; }
+  .footer-index a img {
+    height: auto; } }
+
 .bdy-bg {
   background-image: url(../fotos/background.jpg); }
   .bdy-bg img {
@@ -7823,7 +7846,7 @@ textarea.form-control-lg {
   .btn-gen ul {
     display: flex; }
     .btn-gen ul li {
-      margin: 2rem;
+      margin: 2em;
       list-style: none; }
       .btn-gen ul li a {
         font-size: 2em;
@@ -7837,16 +7860,26 @@ textarea.form-control-lg {
   justify-content: center;
   align-items: center;
   padding: 10px; }
-  .main-sect section {
+  .main-sect .faq {
     background-color: rgba(233, 151, 59, 0.91);
+    border: 2.5px solid white; }
+    .main-sect .faq a {
+      text-decoration: none;
+      color: white; }
+      .main-sect .faq a:hover {
+        color: black; }
+  .main-sect section {
     text-align: center;
-    border: 2.5px solid white;
-    width: 40rem; }
+    width: 40em; }
+    .main-sect section img {
+      width: 15em; }
     .main-sect section h1, .main-sect section .h1 {
       font-size: 2em;
       text-decoration: none;
       color: white; }
     .main-sect section li {
+      background-color: rgba(233, 151, 59, 0.91);
+      border: 2.5px solid white;
       padding: 8px; }
       .main-sect section li a {
         font-size: 2em;
@@ -7858,47 +7891,82 @@ textarea.form-control-lg {
       color: white; }
 
 .footer-sass {
-  position: fixed;
-  bottom: 0;
   text-align: center; }
   .footer-sass h3, .footer-sass .h3 {
     color: white;
     font-size: 1.7em; }
   .footer-sass a img {
-    width: 2.5%; }
+    width: 2em; }
     .footer-sass a img:hover {
       transform: rotateZ(360deg);
       transition: transform 0.5s; }
 
 .grid-reco {
-  display: grid;
-  padding: 10px;
-  grid-template-columns: auto auto auto;
-  height: 40rem; }
-  .grid-reco div {
+  text-align: center; }
+  .grid-reco h2, .grid-reco .h2, .grid-reco h3, .grid-reco .h3, .grid-reco p {
     color: white;
+    font-size: 2em;
     text-align: center; }
+  .grid-reco img {
+    width: 20em;
+    margin: 5px; }
+  .grid-reco p {
+    border: 2.5px solid white;
+    background-color: rgba(233, 151, 59, 0.91); }
+  .grid-reco div {
+    display: inline-block; }
     .grid-reco div video {
       width: 30em;
       height: 300px; }
-    .grid-reco div img {
-      width: 75%; }
 
 .nos-sass {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2.5em; }
-  .nos-sass section {
+  text-align: center;
+  font-size: 2em; }
+  .nos-sass img {
+    width: 15em;
+    margin: 5px; }
+  .nos-sass .div1 {
     background-color: rgba(233, 151, 59, 0.91);
     text-align: center;
     color: white;
-    width: 30em;
     border: 2.5px solid white; }
+    .nos-sass .div1 a {
+      border: 2px solid black;
+      font-size: 1em;
+      text-decoration: none;
+      color: white; }
+      .nos-sass .div1 a:hover {
+        color: black; }
 
 .header-index {
-  font-size: 2.5em;
+  font-size: 2em;
   color: white;
   text-align: center; }
   .header-index div {
     width: 20em; }
+    .header-index div img {
+      width: 500px;
+      height: 500px;
+      overflow: hidden; }
+
+.main-index {
+  font-size: 1.5em;
+  color: white;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.input-button {
+  font-size: 0.7em; }
+
+.footer-index {
+  text-align: center; }
+  .footer-index h3, .footer-index .h3 {
+    color: white;
+    font-size: 1.7em; }
+  .footer-index a img {
+    width: 2em; }
+    .footer-index a img:hover {
+      transform: rotateZ(360deg);
+      transition: transform 0.5s; }

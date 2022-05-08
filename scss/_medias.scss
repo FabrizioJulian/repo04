@@ -1,0 +1,63 @@
+
+//pantalla mediana
+
+@media screen and (max-width:970px){
+    .bdy-bg{
+        a{
+
+           img{
+                width: 10%;
+            }
+    }
+}
+         
+  //    nav       
+    .btn-gen{
+
+          ul{
+                display: flex;
+              flex-direction: column;
+              border: 3px solid $secondary-color; 
+              li{
+                border: 1.5px solid map-get($map:$colores,$key:'ylw');
+                text-align: center;
+              }           
+    }
+}
+//              contacto
+    .main-index{
+        @include flex(center,center);
+       section{
+        article{
+            div{
+                width: $w-125;
+                input{
+                    width: 35%;
+
+                }
+            textarea{
+                width: $w-75;
+            }
+            }
+        }
+       }
+
+     }
+     .footer-index{
+
+        a{ 
+            img{
+                height: auto;
+                
+            }
+        }
+     }
+     
+}
+
+//pantallas pequeñas
+@media screen and (max-width:720px){
+    .grid-reco{
+       
+    }
+}
