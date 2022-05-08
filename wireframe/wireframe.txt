@@ -1,27 +1,27 @@
 INDEX:
-desk:
-https://wireframe.cc/SAoe1q
+desk:https://wireframe.cc/xqVmgz
 
-phone:
-https://wireframe.cc/y2SDkR
+
+phone: https://wireframe.cc/bJsS6Q
+
 
 NOSOTROS:
-desk: 
-https://wireframe.cc/8FSt5U
+desk: https://wireframe.cc/CsCk2e
 
-phone: https://wireframe.cc/rFcbw7
+
+phone:https://wireframe.cc/4CCUb0
 
 Recomendaciones
-desk: https://wireframe.cc/e2wNuU
+desk: https://wireframe.cc/xd5rmy
 
-Phone: https://wireframe.cc/UVQJ7N
+Phone: https://wireframe.cc/U93vBR
 
-HISTORIAL:
-desk: https://wireframe.cc/CBMyQh
+FAQ:
+desk: https://wireframe.cc/bdbgcs
 
-phone: https://wireframe.cc/QelwCS
+phone: https://wireframe.cc/gNPrXE
 
 Ranking:
-desk: https://wireframe.cc/y13yUQ
+desk: https://wireframe.cc/5AXhye
 
-phone: https://wireframe.cc/kMpUhp
+phone: https://wireframe.cc/wgXyyh
